@@ -1,25 +1,26 @@
 # Diffusion Checklist
 
 ## VAE
-- Explain the Evidence lower bound (ELBO).
+- Explain the Evidence Lower Bound (ELBO).
 
 ## GAN
-- What the optimal discriminator should satisfy.
+- What should the optimal discriminator satisfy?
 
 ## Diffusion Models
 - Write down the forward SDE and the reverse SDE.
-- Write down Fokker-Planck equation.
-- Derive the probabilty flow ODE from the reverse SDE using Fokker-Planck equation.
+- Write down the Fokker-Planck equation.
+- Derive the probability flow ODE from the reverse SDE using the Fokker-Planck equation.
 - Write down the VP-SDE and VE-SDE, and explain their connections to DDPM and NCSN.
 - Prove the equivalence between score matching (SM) and denoising score matching (DSM).
 - Explain the maximum likelihood training of diffusion models.
 - What is the relationship between SM/DSM and maximum likelihood training?
-- Explain Tweedie's formula
-- Use Tweedie's formula to transform epsilon prediction into $x_0$ prediction.
+- Explain Tweedie's formula.
+- Use Tweedie's formula to transform epsilon prediction into x_0 prediction.
+- Derive the optimal denoiser.
 - Explain how DDIM accelerates the sampling procedure.
-- Explain how DPM-Solver accelerates the sampling procedure. Why DDIM is a special case of DPM-Solver?
+- Explain how DPM-Solver accelerates the sampling procedure. Why is DDIM a special case of DPM-Solver?
 
-## Diffusion Schrodinger Bridge
+## Diffusion Schrödinger Bridge
 - What is Doob's h-transform?
 
 ## Flow Matching
