@@ -25,6 +25,7 @@ Everything You Should Know About Diffusion Models
 - What is Doob's h-transform?
 
 ## Flow Matching
+- Write down the close form formula of velosity.
 
 ## One-Step/Few-Step Models
 - Explain the idea of consistency models (CM).
