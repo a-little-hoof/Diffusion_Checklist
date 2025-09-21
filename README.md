@@ -8,6 +8,8 @@ Everything You Should Know About Diffusion Models
 - What should the optimal discriminator satisfy?
 
 ## Diffusion Models
+
+### Basics
 - Write down the forward SDE and the reverse SDE.
 - Write down the Fokker-Planck equation.
 - Derive the probability flow ODE from the reverse SDE using the Fokker-Planck equation.
@@ -20,6 +22,10 @@ Everything You Should Know About Diffusion Models
 - Derive the optimal denoiser.
 - Explain how DDIM accelerates the sampling procedure.
 - Explain how DPM-Solver accelerates the sampling procedure. Why is DDIM a special case of DPM-Solver?
+
+### Sampling
+- In diffusion models, more sampling steps do not necessarily mean better results.
+- Training and sampling doesn't require the same noise schedule.
 
 ## Diffusion Schrödinger Bridge
 - What is Doob's h-transform?
