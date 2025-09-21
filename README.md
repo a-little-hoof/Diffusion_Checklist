@@ -25,7 +25,7 @@ Everything You Should Know About Diffusion Models
 
 ### Sampling
 - In diffusion models, more sampling steps do not necessarily mean better results.
-- Training and sampling doesn't require the same noise schedule.
+- Training and sampling of diffusion models doesn't require the same noise schedule.
 
 ## Diffusion Schrödinger Bridge
 - What is Doob's h-transform?
